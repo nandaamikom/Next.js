@@ -7,7 +7,7 @@ import PlatformPreview from "@/components/sections/PlatformPreview";
 import WhyChooseUs from "@/components/sections/WhyChooseUs";
 import Testimonials from "@/components/sections/Testimonials";
 import Pricing from "@/components/sections/Pricing";
-import CTA from "@/components/sections/CTA";
+import Cta from "@/components/sections/Cta";
 
 export default function HomePage() {
   return (
@@ -20,7 +20,7 @@ export default function HomePage() {
       <WhyChooseUs />
       <Testimonials />
       <Pricing />
-      <CTA />
+      <Cta />
     </Layout>
   );
 }
