@@ -27,3 +27,11 @@ body {
   height: 100%;
   color:#0a0a0a;
 }
+@keyframes scroll-3x {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-33.3333%); }
+}
+.animate-scroll-3x {
+  animation: scroll-3x 30s linear infinite;
+}
+
